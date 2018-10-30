@@ -1,0 +1,48 @@
+
+h1 , h4 {
+    text-align: center;
+    color: steelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+  }
+
+  .logo {
+    height: 75px;
+    width: 100px;
+    display: flex;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .anc {
+    
+    margin-top: 2.5%;
+    color: rgb(99, 96, 96);
+    margin-left: 45px;
+  }
+
+
+.container {
+    border: 3px solid slategray;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+img {
+    width: 270px;
+    height: 200px;
+    margin-bottom: 5px;
+}
