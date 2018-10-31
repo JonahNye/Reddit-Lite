@@ -10,7 +10,7 @@ $(document).ready(() => {
           <section class= "container">
              <h3>${reddit[i].data.title}</h3>
              <p>u/${reddit[i].data.author}</p>
-             <img src= "${reddit[i].data.preview.images["0"].source.url}" >
+             <img class="user-pic" src= "${reddit[i].data.preview.images["0"].source.url}" >
              <a href="${reddit[i].data.preview.images["0"].source.url}">>>> Link <<<</a>
              </section>    
              `)

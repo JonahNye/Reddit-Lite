@@ -41,7 +41,8 @@ header {
     margin-top: 5%;
 }
 
-img {
+
+.user-pic {
   margin-left: auto;
   margin: auto;
     width: 270px;
