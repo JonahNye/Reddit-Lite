@@ -42,6 +42,8 @@ header {
 }
 
 img {
+  margin-left: auto;
+  margin: auto;
     width: 270px;
     height: 200px;
     margin-bottom: 5px;

@@ -9,9 +9,9 @@ $(document).ready(() => {
          $("body").append(`
           <section class= "container">
              <h3>${reddit[i].data.title}</h3>
-             <p>${reddit[i].data.author}</p>
+             <p>u/${reddit[i].data.author}</p>
              <img src= "${reddit[i].data.preview.images["0"].source.url}" >
-             <a href="${reddit[i].data.preview.images["0"].source.url}">Link</a>
+             <a href="${reddit[i].data.preview.images["0"].source.url}">>>> Link <<<</a>
              </section>    
              `)
          
