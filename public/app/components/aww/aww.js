@@ -4,7 +4,7 @@ const aww = {
     templateUrl: "./app/components/aww/aww.html",
     controller: ["Service", "$location", "$scope", function(Service, $location, $scope) {
         
-        var awwObj = Service.getAww().awwData;
+        var awwObj = Service.awwData;
 
         console.log(awwObj);
     }]

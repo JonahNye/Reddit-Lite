@@ -2,7 +2,7 @@
 
 const intro = {
     templateUrl:"./app/components/intro/intro.html",
-    controller: ["$location", function ($location) {
+    controller: ["$location", "Service", function ($location, Service) {
         const vm = this;
 
         vm.goEarthporn= () =>{
@@ -16,6 +16,9 @@ const intro = {
         vm.onShow = () => {
             vm.showInstructions = !vm.showInstructions;
         }
+
+        Service.getEarth();
+        // Service.getAww();
 
     }]
 }

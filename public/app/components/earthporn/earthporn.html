@@ -6,7 +6,8 @@
                 <!-- Show on icount 1 or greater. calls i count decrementer-->
             </section>
 
-            <p>{{ earthObj.children[0].data.author }}</p>
+            <p>{{ $ctrl.earthObj.children[$ctrl.i].data.author }}</p>
+            <img class="earth-img" src="{{$ctrl.earthObj.children[$ctrl.i].data.url}}">
 
             <section class="next-arrow">
                 <i class="material-icons" ng-click="$ctrl.next();">keyboard_arrow_down</i>

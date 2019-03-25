@@ -120,15 +120,27 @@
     width: 84%;
 }
 
+.earth-img {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+}
+
 .back-arrow {
     position: absolute;
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
 }
 
 .back-arrow i {
     font-size: 120px;
+    -webkit-animation: arrow 2s infinite;
 }
 
 .next-arrow {
@@ -136,10 +148,21 @@
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
 }
 
 .next-arrow i {
     font-size: 120px;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@-webkit-keyframes arrow {
+    0% {color: white}
+    25% { color: grey}
+    50% { color: black}
+    75% {color: grey}
+    100% { color: white}
+    
 }
 
 

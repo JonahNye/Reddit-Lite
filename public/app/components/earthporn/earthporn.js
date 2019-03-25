@@ -7,20 +7,24 @@ const earthPorn = {
 
         // Service.getEarth()
 
-        var earthObj = Service.getEarth().reply;
+        $(document).ready(() => {
+            vm.i = 0;
+            vm.earthObj = Service.reply;
 
 
-
+            vm.next =() => {
+                vm.i++;
+            }
         //response contains api info, but with strange form
-        console.log(earthObj);
+        console.log(vm.earthObj);
         
         //counter initialized
-        var i = 0;
+        // var i = 0;
     
         //ng-click to trigger i ++,
     
         
-        
+        })
     }]
 }
 
