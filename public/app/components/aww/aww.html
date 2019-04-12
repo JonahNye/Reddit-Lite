@@ -2,13 +2,14 @@
     <section class="aww-center">
 
             <section class="back-arrow">
-                <i class="material-icons">keyboard_arrow_up</i>
+                <i ng-click="$ctrl.previous();" class="material-icons">keyboard_arrow_up</i>
             </section>
 
-            <p>{{ earthObj.children[0].data.author }}</p>
+            <img class="aww-img" src="{{$ctrl.awwObj.children[$ctrl.c].data.url}}">
+            <p>{{ $ctrl.awwObj.children[c].data.author }}</p>
 
             <section class="next-arrow">
-                <i class="material-icons">keyboard_arrow_down</i>
+                <i ng-click="$ctrl.next();" class="material-icons">keyboard_arrow_down</i>
             </section>
 
 

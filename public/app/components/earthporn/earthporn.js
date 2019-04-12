@@ -15,6 +15,10 @@ const earthPorn = {
             vm.next =() => {
                 vm.i++;
             }
+
+            vm.previous = () => {
+                vm.i--;
+            }
         //response contains api info, but with strange form
         console.log(vm.earthObj);
         

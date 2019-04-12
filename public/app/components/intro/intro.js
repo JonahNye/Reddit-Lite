@@ -18,7 +18,7 @@ const intro = {
         }
 
         Service.getEarth();
-        // Service.getAww();
+        Service.getAww();
 
     }]
 }
